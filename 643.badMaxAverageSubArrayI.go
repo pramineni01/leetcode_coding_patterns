@@ -5,18 +5,17 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
-func main() {
+// func main() {
 
-	inp := []int{1, 12, -5, -6, 50, 3}
-	k := 4
+// 	inp := []int{1, 12, -5, -6, 50, 3}
+// 	k := 4
 
-	out := findMaxAvgSubArray(inp, k)
-	fmt.Println("Output: %v", out)
-}
+// 	out := findMaxAvgSubArray(inp, k)
+// 	fmt.Println("Output: %v", out)
+// }
 
 func findMaxAvgSubArray(inp []int, k int) float64 {
 	max := float64(0)

@@ -9,16 +9,16 @@ import (
 	"math"
 )
 
-func main() {
-	inp := []int{1, 2, 1}
-	// inp := []int{0, 1, 2, 2}
-	// inp := []int{1, 2, 3, 2, 2}
+// func main() {
+// 	inp := []int{1, 2, 1}
+// 	// inp := []int{0, 1, 2, 2}
+// 	// inp := []int{1, 2, 3, 2, 2}
 
-	out := findMaxFruitsPicked(inp)
-	fmt.Println("Max fruits picked : ", out)
-}
+// 	out := findMaxFruitsPickedV2(inp)
+// 	fmt.Println("Max fruits picked : ", out)
+// }
 
-func findMaxFruitsPicked(inp []int) int {
+func findMaxFruitsPickedV2(inp []int) int {
 	max := float64(0)
 
 	type fruit_type int

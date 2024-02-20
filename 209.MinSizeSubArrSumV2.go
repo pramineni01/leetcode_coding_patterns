@@ -15,6 +15,7 @@ func minSubArrayLenV2(target int, nums []int) int {
 		sum += nums[r]
 
 		for (sum >= target) && (l < r+1) {
+
 			if sum >= target {
 				minLen = min(minLen, r-l+1)
 			}
@@ -24,16 +25,16 @@ func minSubArrayLenV2(target int, nums []int) int {
 
 		r++
 	}
-
 	if minLen == math.MaxInt32 {
 		return 0
 	}
 	return minLen
+
 }
 
-func min(a, b int) int {
-	if b < a {
-		return b
-	}
-	return a
-}
+// func min(a, b int) int {
+// 	if b < a {
+// 		return b
+// 	}
+// 	return a
+// }

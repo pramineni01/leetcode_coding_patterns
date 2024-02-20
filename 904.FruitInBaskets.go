@@ -5,18 +5,17 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
-func main() {
-	// inp := []int{1, 2, 1}
-	// inp := []int{0, 1, 2, 2}
-	inp := []int{1, 2, 3, 2, 2}
+// func main() {
+// 	// inp := []int{1, 2, 1}
+// 	// inp := []int{0, 1, 2, 2}
+// 	inp := []int{1, 2, 3, 2, 2}
 
-	out := findMaxFruitsPicked(inp)
-	fmt.Println("Max fruits picked : ", out)
-}
+// 	out := findMaxFruitsPicked(inp)
+// 	fmt.Println("Max fruits picked : ", out)
+// }
 
 func findMaxFruitsPicked(inp []int) int {
 	max := 0
