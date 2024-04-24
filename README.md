@@ -1,7 +1,6 @@
 # leetcode_coding_patterns
 
-## How to setup VSCode for leetcode
-
+## How to setup VSCode for leetcode 
 1. Login to leetcode in browser
 2. Extract LEETCODE_SESSION and csrftoken from browser developer tools
 3. Form the cookie string "LEETCODE_SESSION=<leetcode_session_value>;csrftoken=<csrftoken_value>"
@@ -12,3 +11,4 @@
 
 Now click on the leetcode plugin. You should see "Leetcode: Problems" -> "All"
 Select a problem, you should be able to see "code now". Code and submit.
+refer: [link](https://github.com/LeetCode-OpenSource/vscode-leetcode/issues/478#issuecomment-1675943040)
